@@ -1,0 +1,10 @@
+.geral {
+    display: flex;
+    justify-content: left;
+    align-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    font-weight: 700;
+  }
+  

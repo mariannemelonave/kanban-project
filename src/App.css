@@ -1,0 +1,81 @@
+body {
+  background-image: url(./icons/Home.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+  height: 790px;
+  padding: 10px;
+  left: 215px;
+  background-color:#E1E8ED;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  height: auto;
+  width: 400px;
+  padding-left: 40px;
+  gap: 30px;
+  border-radius: 10px;
+}
+.button {
+  border-radius: 2px;
+  color: white;
+  text-align: center;
+  width: auto;
+  height: 20px;
+  font-weight: 700;
+}
+.cardOne {
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 330px;
+  gap: 10px;
+  background: #59b4d1;
+  color: white;
+}
+.bOne {
+  background: #59b4d1;
+  border: #59b4d1;
+}
+.cardTwo {
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 330px;
+  gap: 10px;
+  background: #d0935a;
+  color: white;
+}
+.bTwo {
+  background: #d0935a;
+  border: #d0935a;
+}
+.cardTree {
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: auto;
+  gap: 10px;
+  background: #945ad1;
+  color: white;
+}
+.bTree {
+  background: #945ad1;
+  border: #945ad1;
+}
+.cardFour {
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: auto;
+  gap: 10px;
+  background: #59d090;
+  color: white;
+}
+.bFour {
+  background: #59d090;
+  border: #59d090;
+}
