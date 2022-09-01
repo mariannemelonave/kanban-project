@@ -1,81 +1,79 @@
-body {
-  background-image: url(./icons/Home.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: auto;
-  height: 790px;
-  padding: 10px;
-  left: 215px;
-  background-color:#E1E8ED;
+
+html,
+body,
+h1,
+h2,
+p,
+code
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-.card {
+body {
+  line-height: 1;
+  font-family: "Roboto";
+}
+
+.main{
+  background-color: #E1E8ED;
   display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("./components/img/Home.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position:center;
+  }
+
+.main-title{
+  font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 38px;
+   line-height: 45px;
+   letter-spacing: -0.02em;
+   margin-left: 1.400em;
+   margin-top: 1.400em  
+}
+
+.main-container {
+  display: flex;
+  max-width: 1000em;
+  margin-top: 2em;
+  margin-left: 3em;
+  margin-right: 3em;
+  justify-content: space-between;
   flex-direction: row;
-  text-align: left;
-  height: auto;
-  width: 400px;
-  padding-left: 40px;
-  gap: 30px;
-  border-radius: 10px;
+  position: relative;
+  gap:2em;
+ }  
+
+
+.blue {
+  background-color: #59b4d1;
+  color: #FFF;
 }
-.button {
-  border-radius: 2px;
-  color: white;
-  text-align: center;
-  width: auto;
-  height: 20px;
-  font-weight: 700;
-}
-.cardOne {
-  flex-direction: column;
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 330px;
-  gap: 10px;
-  background: #59b4d1;
-  color: white;
-}
-.bOne {
-  background: #59b4d1;
-  border: #59b4d1;
-}
-.cardTwo {
-  flex-direction: column;
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 330px;
-  gap: 10px;
+
+.orange {
   background: #d0935a;
-  color: white;
+  color: #FFF;
 }
-.bTwo {
-  background: #d0935a;
-  border: #d0935a;
-}
-.cardTree {
-  flex-direction: column;
-  padding-left: 20px;
-  padding-right: 20px;
-  height: auto;
-  gap: 10px;
+
+.purple {
   background: #945ad1;
-  color: white;
+  color: #FFF;
 }
-.bTree {
-  background: #945ad1;
-  border: #945ad1;
-}
-.cardFour {
-  flex-direction: column;
-  padding-left: 20px;
-  padding-right: 20px;
-  height: auto;
-  gap: 10px;
+
+.green {
   background: #59d090;
-  color: white;
 }
-.bFour {
-  background: #59d090;
-  border: #59d090;
-}
+
+a {
+  color: #000;
+} 
